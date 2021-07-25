@@ -1,0 +1,18 @@
+body {
+  background-color: dodgerblue;
+}
+
+.text {
+  text-align: center;
+  font-size: 42px;
+}
+
+.secret-div {
+  text-align: center;
+  padding-top: 10rem;
+  display: none;
+}
+
+#my-canvas {
+  position: absolute;
+}
