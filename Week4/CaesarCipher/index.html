@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Caesar Cipher</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <h1>My Caesar Cipher</h1>
+
+    <div id="encrypt_container">
+      <p><strong>Plain text to encrypt</strong></p>
+      <input type="text" id="plaintext"/>
+      <br/>
+      <p><strong>Key to encrypt</strong></p>
+      <input type="number" id="encrypt_key"/>
+      <br/>
+      <input type="button" id="encrypt" value="encrypt"/>
+      <p id="encrypt_output"></p>
+    </div>
+
+    <div id="decrypt_container">
+      <p><strong>Ciphertext to decrypt</strong></p>
+      <input type="text" id="ciphertext"/>
+      <br/>
+      <p><strong>Key to decrypt</strong></p>
+      <input type="number" id="decrypt_key"/>
+      <br/>
+      <input type="button" id="decrypt" value="decrypt"/>
+      <p>Decrypted ciphertext (AKA plain text):</p>
+      <p id="decrypt_output"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

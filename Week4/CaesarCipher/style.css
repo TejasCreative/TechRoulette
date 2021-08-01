@@ -1,0 +1,57 @@
+body {
+  font-family: "courier";
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+div {
+  border-radius: 50px;
+  padding: 20px;
+  margin: 30px auto;
+  width: 500px;
+}
+
+#encrypt_container {
+  border: solid 3px greenyellow;
+}
+
+#decrypt_container {
+  border: solid 3px coral;
+}
+
+input[type=button] {
+  font-family: "courier";
+  color: black;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 20px;
+  width: 80px;
+}
+
+input[type=button]:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+input[type=text] {
+  background-color: black;
+  border: solid 1px white;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  width: 300px;
+  font-family: courier;
+}
+
+input[type=number] {
+  background-color: black;
+  border: solid 1px white;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  width: 75px;
+  font-family: courier;
+}
